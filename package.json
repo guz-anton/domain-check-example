@@ -1,0 +1,27 @@
+{
+  "name": "domain-check-example",
+  "version": "1.0.0",
+  "description": "Realize api server for domain search.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guz-anton/domain-check-example.git"
+  },
+  "author": "Anton Guz <guz.anton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guz-anton/domain-check-example/issues"
+  },
+  "homepage": "https://github.com/guz-anton/domain-check-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "domainr-api": "^1.2.1",
+    "express": "^4.15.3",
+    "nconf": "^0.8.4",
+    "yargs": "^8.0.2"
+  }
+}
